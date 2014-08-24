@@ -1,5 +1,6 @@
 ## The first function creates a cached matrix object (which is a list of functions). The second function returns by default the inverted matrix, and can access the list of functions created in the first function.
 
+## Function 1:
 ## Input a matrix, get a list of functions out.
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -22,6 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
        getinv = getinv) 
 }
 
+## Function 2:
 ## Input the object containing your list of functions created in the first function, get an inverted matrix out.
 
 cacheSolve <- function(x, ...) {
